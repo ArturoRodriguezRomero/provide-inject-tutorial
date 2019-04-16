@@ -10,6 +10,7 @@ import { LanguageService } from "../services/language/LanguageService";
 import { NavigatorLanguageService } from "../services/language/NavigatorLanguageService";
 import { DateService } from "../services/date/DateService";
 import { BrowserDateService } from "../services/date/BrowserDateService";
+import { Person } from "../models/Person";
 
 @Component({ name: "ServiceProvider" })
 export default class ServiceProvider extends Vue {

@@ -15,6 +15,7 @@
 import { Component, Vue, Inject } from "vue-property-decorator";
 import { LanguageService } from "../services/language/LanguageService";
 import { DateService } from "../services/date/DateService";
+import { Person } from "../models/Person";
 
 @Component({ name: "GrandChild" })
 export default class GrandChild extends Vue {
